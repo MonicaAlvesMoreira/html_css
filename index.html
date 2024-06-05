@@ -19,40 +19,45 @@
             text-align: center;
             padding: 20px 0;
         }
+
         .container {
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         .card {
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             overflow: hidden;
             display: flex;
             width:70%;
             border-top-left-radius: 100px;
         }
+
         .card img {
             width: 400px;
             height: auto;
             border-radius: 10px;
             border-top-left-radius: 100px;
         }
+
         .card img:hover{
             width: 600px;
-
-
         }
+
         .card-content {
             padding: 40px;
         }
+
         .card-title {
             font-size: 1.5em;
             margin-bottom: 10px;
         }
+
         .card-text {
             font-size: 1em;
             color: #333;
@@ -66,16 +71,21 @@
             width: 100%;
             bottom: 0;
         }
+
+        .sombra {
+            box-shadow: 5px 10px 20px rgb(0, 0, 0, 0.7);
+            border-style: none;
+        }
     </style>
 </head>
 <body>
-    <header>
+    <header class="sombra">
         <h1>Lugares Turísticos na Europa</h1>
         <p>Explore os destinos mais deslumbrantes do continente europeu.</p>
     </header>
     
     <div class="container">
-        <div class="card">
+        <div class="card sombra">
             <img src="imagens/torre-eiffel-vista-rio-sena.jpg" alt="Torre Eiffel, Paris">
             <div class="card-content">
                 <h2 class="card-title" style="color: pink;">Paris, França</h2>
@@ -83,7 +93,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card sombra">
             <img src="imagens/passagens-aereas-roma-capa2019-01.jpg" alt="Coliseu, Roma">
             <div class="card-content">
                 <h2 class="card-title" style="color: orangered;">Roma, Itália</h2>
@@ -91,7 +101,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card sombra">
             <img src="imagens/big-ben-em-londres-1.jpg" alt="Big Ben, Londres">
             <div class="card-content">
                 <h2 class="card-title" style="color: blue;">Londres, Reino Unido</h2>
@@ -99,7 +109,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card sombra">
             <img src="imagens/antoni-gaudicc81-sagrada-familia-20150924-024.webp" alt="Sagrada Família, Barcelona">
             <div class="card-content">
                 <h2 class="card-title" style="color:green;">Barcelona, Espanha</h2>
@@ -107,7 +117,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card sombra">
             <img src="imagens/blog-partenon-sobrevivente-e-o-elemento-historico-mais-importante-da-grecia-19cea72b09.jpg" alt="Parthenon, Atenas">
             <div class="card-content">
                 <h2 class="card-title" style="color:purple;">Atenas, Grécia</h2>
